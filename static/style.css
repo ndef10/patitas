@@ -1,0 +1,56 @@
+footer {
+    background-color: #1E2A5E;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-fluid {
+
+    padding: 0px;
+
+    margin: 0px
+
+}
+
+.container-fluid > main > .row { /* >, solo afecta al primer hijo*/
+
+    margin: 0px;
+
+}
+ 
+.social-media {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media a {
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+.social-media a:hover {
+    color: #444;
+    border: 1px solid #999;
+}
+
+footer form {
+    padding: 10px 15px;
+
+}
+
+header nav .navbar-brand {
+    height: 45px;
+}
+header nav .navbar-brand img {
+    width: 110px;
+    margin-top: -25px;
+}
