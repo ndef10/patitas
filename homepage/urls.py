@@ -7,5 +7,9 @@ urlpatterns = [
     path('feedback/gracias', views.v_feedback_gracias, name= 'feedback_gracias'),
     path('sign_up', views_account.v_sign_up, name= 'sign_up'),
     path('sign_up/create',views_account.v_sign_up_create, name='sign_up_create'),
-    path('sign_up/thank_you', views_account.v_sign_up_thank_you, name= 'sign_up_thank_you')
+    path('sign_up/thank_you', views_account.v_sign_up_thank_you, name= 'sign_up_thank_you'),
+    path('sign_in', views_account.v_sign_in, name= 'sign_in'),
+    path('sign_in/login', views_account.v_sign_in_login, name= 'sign_in_login'),
+    path('sign_in/welcome', views_account.v_welcome, name= 'welcome')
+
 ]
